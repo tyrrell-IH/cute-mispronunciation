@@ -4,7 +4,9 @@
   "description": "cute-mispronunciationは入力したひらがなを少し言い間違えて返してくれるアプリケーションです",
   "main": "bin/cuteMispronunciation.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "fix": "prettier --write . && eslint --fix .",
+    "lint": "prettier --check . && eslint ."
   },
   "repository": {
     "type": "git",
@@ -20,5 +22,11 @@
   "bugs": {
     "url": "https://github.com/tyrrell-IH/cute-mispronunciation/issues"
   },
-  "homepage": "https://github.com/tyrrell-IH/cute-mispronunciation#readme"
+  "homepage": "https://github.com/tyrrell-IH/cute-mispronunciation#readme",
+  "devDependencies": {
+    "eslint": "^9.22.0",
+    "eslint-config-prettier": "^10.1.1",
+    "prettier": "^3.5.3"
+  },
+  "type": "module"
 }
