@@ -1,0 +1,24 @@
+{
+  "name": "cute-mispronunciation",
+  "version": "1.0.0",
+  "description": "cute-mispronunciationは入力したひらがなを少し言い間違えて返してくれるアプリケーションです",
+  "main": "bin/cuteMispronunciation.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tyrrell-IH/cute-mispronunciation.git"
+  },
+  "keywords": [
+    "japanese",
+    "hiragana",
+    "mispronunciation"
+  ],
+  "author": "tyrrell-IH",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tyrrell-IH/cute-mispronunciation/issues"
+  },
+  "homepage": "https://github.com/tyrrell-IH/cute-mispronunciation#readme"
+}
