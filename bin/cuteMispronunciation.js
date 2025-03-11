@@ -1,8 +1,8 @@
 import { CLI } from "../lib/cli.js";
-import { Mispronunciation } from "../lib/mispronunciation.js";
+import { Response } from "../lib/response.js";
 
 const ui = new CLI();
-const givenWord = await ui.inputWord();
-const mispronunciation = new Mispronunciation(givenWord);
-const mispronunciationWord = mispronunciation.create();
-console.log(mispronunciationWord);
+const word = await ui.inputWord();
+const response = new Response(word);
+const responseWord = response.createWord();
+console.log(responseWord);
