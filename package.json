@@ -1,7 +1,7 @@
 {
   "name": "cute-mispronunciation",
   "version": "1.0.0",
-  "description": "cute-mispronunciationは入力したひらがなを少し言い間違えて返してくれるアプリケーションです",
+  "description": "This is a generator that will return the hiragana you typed in with a mispronounced version.",
   "main": "bin/cuteMispronunciation.js",
   "bin": {
     "cute-mispronunciation": "bin/cuteMispronunciation.js"
