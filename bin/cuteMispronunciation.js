@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 import { CLI } from "../lib/cli.js";
 import { Response } from "../lib/response.js";
 

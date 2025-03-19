@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "cute-mispronunciationは入力したひらがなを少し言い間違えて返してくれるアプリケーションです",
   "main": "bin/cuteMispronunciation.js",
+  "bin": {
+    "cute-mispronunciation": "bin/cuteMispronunciation.js"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "fix": "prettier --write . && eslint --fix .",
