@@ -1,5 +1,5 @@
 import { CLI } from "../lib/cli.js";
-import { Comment } from "../lib/comment.js";
+import { Response } from "../lib/response.js";
 
 const ui = new CLI();
 let word;
@@ -12,5 +12,5 @@ try {
     throw error;
   }
 }
-const comment = new Comment(word);
-comment.exec();
+const response = new Response(word);
+response.exec();
