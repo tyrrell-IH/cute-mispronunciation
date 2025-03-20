@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 
-import { CLI } from "../lib/cli.js";
-import { Response } from "../lib/response.js";
+import CLI from "../lib/cli.js";
+import Response from "../lib/response.js";
 
 const ui = new CLI();
 let word;
