@@ -1,0 +1,38 @@
+{
+  "name": "cute-mispronunciation",
+  "version": "1.0.0",
+  "description": "This is a generator that will return the hiragana you typed in with a mispronounced version.",
+  "main": "bin/cuteMispronunciation.js",
+  "bin": {
+    "cute-mispronunciation": "bin/cuteMispronunciation.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "fix": "prettier --write . && eslint --fix .",
+    "lint": "prettier --check . && eslint ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tyrrell-IH/cute-mispronunciation.git"
+  },
+  "keywords": [
+    "japanese",
+    "hiragana",
+    "mispronunciation"
+  ],
+  "author": "tyrrell-IH",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tyrrell-IH/cute-mispronunciation/issues"
+  },
+  "homepage": "https://github.com/tyrrell-IH/cute-mispronunciation#readme",
+  "devDependencies": {
+    "eslint": "^9.22.0",
+    "eslint-config-prettier": "^10.1.1",
+    "prettier": "^3.5.3"
+  },
+  "type": "module",
+  "dependencies": {
+    "enquirer": "^2.4.1"
+  }
+}
